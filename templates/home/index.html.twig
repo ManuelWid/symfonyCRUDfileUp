@@ -27,7 +27,7 @@
                 <td> <a href="{{ path('app_details', {'id': room.id}) }}" class="btn btn-success">View</a>     
                     <a href="{{ path('app_edit', {'id': room.id}) }}" class="btn btn-default">Edit</a>
                     <a href="{{ path('app_delete', {'id': room.id}) }}" class="btn btn-danger">Delete</a>
-                    <a href="{{ path('app_book', {'id': room.id}) }}" class="btn btn-danger">Book</a>
+                    {# <a href="{{ path('app_book', {'id': room.id}) }}" class="btn btn-danger">Book</a> #}
                 </td>
             </tr> 
         {% endfor %}
